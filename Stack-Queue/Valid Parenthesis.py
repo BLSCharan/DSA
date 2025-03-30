@@ -9,7 +9,7 @@ def isValidParenthesis(s):
         elif char == ')':  # If closing bracket
             if not stack:  # If stack is empty, no matching opening bracket
                 return 0
-            stack.pop()  # Remove last opening bracket from stack
+            stack.pop()  # Remove last opening bracket from stack    
 
     # If stack is empty, all brackets are matched
     return 1 if not stack else 0
