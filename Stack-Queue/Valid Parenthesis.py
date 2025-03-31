@@ -15,7 +15,7 @@ def isValidParenthesis(s):
     return 1 if not stack else 0
 
 # Input number of test cases
-T = int(input())
+T = int(input()) 
 
 # Process each test case
 for _ in range(T):
