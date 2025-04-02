@@ -2,7 +2,7 @@ def solve(head):
   
     if not head or not head.next or not head.next.next:
         return 0
-
+ 
     count = 0
     prev = head
     cur = head.next
