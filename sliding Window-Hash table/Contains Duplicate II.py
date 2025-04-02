@@ -6,3 +6,4 @@ class Solution(object):
                 return True
             h[nums[i]]=i
         return False
+ 
