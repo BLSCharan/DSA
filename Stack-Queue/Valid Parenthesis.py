@@ -12,7 +12,7 @@ def isValidParenthesis(s):
             stack.pop()  # Remove last opening bracket from stack    
  
     # If stack is empty, all brackets are matched
-    return 1 if not stack else 0
+    return 1 if not stack else 0 
 
 # Input number of test cases
 T = int(input()) 
