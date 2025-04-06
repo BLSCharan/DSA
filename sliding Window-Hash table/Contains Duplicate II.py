@@ -7,3 +7,4 @@ class Solution(object):
             h[nums[i]]=i
         return False
  
+  
