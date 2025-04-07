@@ -9,6 +9,6 @@ for _ in range(T):
     for i in range(1, N):
         current_sum = max(nums[i], current_sum + nums[i])
         max_sum = max(max_sum, current_sum)
-    
+     
     print(max_sum)
 
